@@ -1,5 +1,7 @@
 # FpingSharp
 
+> **Note:** This project was developed with AI assistance (Claude, Anthropic). Architecture design, code implementation, documentation, and benchmarks were produced through human-AI collaboration.
+
 A pure C# high-performance parallel ping library inspired by [fping](https://github.com/schweikert/fping). No native dependencies required.
 
 ## Features
