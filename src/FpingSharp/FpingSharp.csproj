@@ -5,11 +5,22 @@
     <Nullable>enable</Nullable>
     <LangVersion>latest</LangVersion>
 
+    <!-- NuGet package metadata -->
     <PackageId>FpingSharp</PackageId>
-    <Description>A .NET wrapper around fping for high-performance parallel ping operations.</Description>
-    <Authors>FpingSharp Contributors</Authors>
+    <Version>0.1.0</Version>
+    <Authors>neardreams</Authors>
+    <Description>A pure C# high-performance parallel ping library inspired by fping. Supports async ICMP ping, IPv4/IPv6, CIDR range scanning, per-host statistics, and real-time event callbacks.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/neardreams/FpingSharp</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/neardreams/FpingSharp</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>ping;icmp;fping;network;ipv4;ipv6;cidr;async</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../../README.md" Pack="true" PackagePath="/" />
+  </ItemGroup>
 
   <ItemGroup>
     <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
